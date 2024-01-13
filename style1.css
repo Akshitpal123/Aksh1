@@ -1,47 +1,95 @@
+/* styles.css */
 
-
-body {
-    font-family: 'Arial', sans-serif;
+body.black-background {
+    background-color: #282c35;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color:#3498db;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2186c3;
+}
+
+a {
+    color: #3498db;
     text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    margin: 0 10px;
+    transition: color 0.3s;
 }
 
-.hero {
+a:hover {
+    color: #2186c3;
+}
+
+/* Additional styles for form and links */
+form {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+p {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #007bff;
-    color: #fff;
 }
 
-.courses, .about, .contact, .blog {
-    padding: 50px 20px;
+.text-success {
+    color: #27ae60;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+.text-primary {
+    color: #3498db;
+}
+
+.text-warning {
+    color: #f39c12;
 }
