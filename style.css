@@ -16,7 +16,7 @@ body.black-background {
     width: 100%;
     padding: 40px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #ggg;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -92,4 +92,24 @@ p {
 
 .text-warning {
     color: #f39c12;
+}
+
+/* style.css */
+
+/* Add some general styling for buttons */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Add styling for section headings */
+h3 {
+    color: #007bff;
+}
+
+.container {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a border for better visual separation */
+    padding: 15px;
+    border-radius: 8px; /* Add border-radius for rounded corners */
 }
